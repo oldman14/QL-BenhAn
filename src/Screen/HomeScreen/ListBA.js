@@ -6,7 +6,7 @@ const ListBA = (props) => {
   console.log(props.patient.url);
   const navigation = useNavigation();
   const patient = () => {
-    navigation.navigate('PatientScreen');
+    navigation.navigate('PatientHome');
   };
   return (
     <View style={{backgroundColor: '#eee'}}>
